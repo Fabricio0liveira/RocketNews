@@ -175,3 +175,45 @@ div .container {
         height: 48px;
     }   
 }
+
+@media (max-width: 425px) {
+    body {
+        background: var(--body-bg-color);
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .logo-rocketnews{
+        width: 240px;
+        
+    }
+
+    .section {
+        margin: 90px 50px;
+        width: 350px;
+    }
+
+    .form {
+        margin: 20px 50px;
+        width: 340px;
+    }
+
+    .rectangle-4 {
+        height: 30px;
+    }
+
+    .input-email {
+        height: 30px;
+    }
+
+    .button-send {
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+    }
+}
